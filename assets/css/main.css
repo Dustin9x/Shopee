@@ -725,7 +725,6 @@
     padding-left: 16px;
     position: relative;
     cursor: pointer;
-    z-index: 1;
 }
 
 .search-select_label {
@@ -774,7 +773,8 @@
     padding-left: 0;
     border-radius: 3px;
     display: none;
-    animation: fadeIn ease-in 0.1s
+    animation: fadeIn ease-in 0.1s;
+    z-index: 1;
 }
 
 .header-search__search-option:before {
